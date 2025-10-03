@@ -1,0 +1,28 @@
+.task {
+    display: flex;
+    flex-direction: column;
+    background-color: lightsteelblue;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 10px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: darkslateblue;
+}
+
+.task .header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.task .description {
+    padding-left: 27px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}

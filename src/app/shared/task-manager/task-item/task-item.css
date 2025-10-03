@@ -1,7 +1,7 @@
 .task {
     display: flex;
     flex-direction: column;
-    background-color: lightsteelblue;
+    background-color: #2A223D;
     border-radius: 8px;
     padding: 5px;
     margin: 10px;
@@ -11,6 +11,7 @@
 }
 
 .task .header {
+    color: #EAEAEA;
     display: flex;
     align-items: center;
     gap: 0.5rem;
@@ -20,6 +21,7 @@
     padding-left: 27px;
     margin-top: 0;
     margin-bottom: 15px;
+    color: rgb(170, 170, 170)
 }
 
 .completed {

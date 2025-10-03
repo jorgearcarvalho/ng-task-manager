@@ -1,13 +1,1 @@
-<h1>My task-manager!</h1>
-<div class="todo">
-  <h2>These are my TODO's!</h2>
-  <div *ngFor="let task of tasks">
-    <app-task-item [hidden]="task.completed" [task]="task"></app-task-item>
-  </div>
-</div>
-<div class="done">
-  <h2>What i've done so far...</h2>
-  <div *ngFor="let task of tasks">
-    <app-task-item [hidden]="!task.completed" [task]="task"></app-task-item>
-  </div>
-</div>
+<app-task-manager-page></app-task-manager-page>

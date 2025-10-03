@@ -1,1 +1,13 @@
-<p>section works!</p>
+<h2>{{ section.name }}</h2>
+<div class="todo">
+  <h3>You should be working on these.</h3>
+  <div *ngFor="let task of section.tasks">
+    <app-task-item [hidden]="task.completed" [task]="task"></app-task-item>
+  </div>
+</div>
+<div class="done">
+  <h3>What you've done so far...</h3>
+  <div *ngFor="let task of section.tasks">
+    <app-task-item [hidden]="!task.completed" [task]="task"></app-task-item>
+  </div>
+</div>

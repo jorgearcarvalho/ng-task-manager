@@ -1,0 +1,20 @@
+.todo {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-add-task {
+    background: #5E5DF0;
+    border-radius: 999px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 8px 18px;
+    touch-action: manipulation;
+    border: 0;
+    align-self: center;
+    margin-top: 10px;
+}

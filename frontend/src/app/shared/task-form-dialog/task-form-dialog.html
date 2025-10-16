@@ -1,0 +1,30 @@
+<mat-dialog-content class="form-conteiner" [formGroup]="taskForm">
+    <div class="form-field-conteiner">
+        <h2>Task</h2>
+        <mat-form-field>
+            <input matInput type="text"
+                    placeholder="Name"
+                    formControlName="title">
+        </mat-form-field>
+    </div>
+    <div class="form-field-conteiner">
+        <h2>Details</h2>
+        <mat-form-field>
+            <input matInput type="text"
+                    placeholder="Description"
+                    formControlName="description">
+        </mat-form-field>
+    </div>
+    <div class="form-field-conteiner">
+        <h2>Expiration</h2>
+        <mat-form-field>
+            <input matInput type="date"
+                    placeholder="Expires on"
+                    formControlName="expirationDate">
+        </mat-form-field>
+    </div>
+</mat-dialog-content>
+<mat-dialog-actions class="input-btns">
+    <button matButton="elevated" (click)="cancel()">Cancel</button>
+    <button matButton="elevated" (click)="save()">Save</button>
+</mat-dialog-actions>

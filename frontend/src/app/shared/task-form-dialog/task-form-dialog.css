@@ -1,0 +1,37 @@
+.form-conteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(230, 226, 214);
+    background-color: #2A223D;
+    padding: 2rem;
+}
+
+.form-field-conteiner {
+    width: 80%;
+    max-width: 500px; /* Prevents them from becoming too wide on big screens */
+}
+
+mat-form-field {
+    width: 100%; /* Ensures full use of available width */
+    font-size: 1.1rem; /* Slightly larger text */
+}
+
+mat-form-field input {
+    height: 45px; /* Makes inputs taller */
+    padding: 0 12px; /* Adds horizontal padding inside input */
+    font-size: 1rem; /* Increases font size for readability */
+}
+
+h2 {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.input-btns {
+    background-color: #2A223D;
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+    padding-bottom: 28px;
+}

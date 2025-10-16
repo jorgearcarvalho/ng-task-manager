@@ -1,0 +1,8 @@
+<div class="task">
+    <div class="header">
+        <input type="checkbox" [checked]="task.completed" (change)="toggleCompleted()" />
+        <h3 [class.completed]="task.completed">{{ task.title }}</h3>
+        <p> {{task.expirationDate | date:'mediumDate' }} </p>
+    </div>
+    <p [hidden]="!task.description || task.completed" class="description"> {{ task.description }}</p>
+</div>

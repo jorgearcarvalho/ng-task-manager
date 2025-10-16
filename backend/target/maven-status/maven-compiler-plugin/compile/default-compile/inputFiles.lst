@@ -1,0 +1,7 @@
+/home/povaloid/Documents/estudos/cic/projetos/ng-task-manager/backend/src/main/java/com/povaloid/TaskManagerApp.java
+/home/povaloid/Documents/estudos/cic/projetos/ng-task-manager/backend/src/main/java/com/povaloid/taskmanager/entity/Task.java
+/home/povaloid/Documents/estudos/cic/projetos/ng-task-manager/backend/src/main/java/com/povaloid/taskmanager/entity/TaskList.java
+/home/povaloid/Documents/estudos/cic/projetos/ng-task-manager/backend/src/main/java/com/povaloid/taskmanager/entity/UserAccount.java
+/home/povaloid/Documents/estudos/cic/projetos/ng-task-manager/backend/src/main/java/com/povaloid/taskmanager/repository/TaskListRepository.java
+/home/povaloid/Documents/estudos/cic/projetos/ng-task-manager/backend/src/main/java/com/povaloid/taskmanager/repository/TaskRepository.java
+/home/povaloid/Documents/estudos/cic/projetos/ng-task-manager/backend/src/main/java/com/povaloid/taskmanager/repository/UserRepository.java
